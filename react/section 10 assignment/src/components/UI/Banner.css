@@ -1,0 +1,39 @@
+.banner {
+  background-color: darkorange;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 90%;
+}
+
+.inline-display {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.cart {
+  background-color: brown;
+  border-radius: 100px;
+  width: 225px;
+  height: 60px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.cart:hover {
+  cursor: pointer;
+  color: brown;
+  background-color: white;
+}
+
+.cart-items {
+  background-color: orange;
+  border-radius: 100px;
+}

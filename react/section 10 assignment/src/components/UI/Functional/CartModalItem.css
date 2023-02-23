@@ -1,0 +1,42 @@
+.flex-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  padding-top: 50px;
+}
+
+.button-inverted-mini {
+  border-radius: 100px;
+  width: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: 1px solid brown;
+  background-color: white;
+  color: brown;
+  font-size: 24px;
+}
+
+.button-inverted-mini:hover {
+  transform: scaleX(1.2);
+  transform: scaleY(1.1);
+  border: 1px solid white;
+  background-color: brown;
+  color: white;
+}
+
+.price {
+  color: brown;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.qty {
+  background-color: lightgrey;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+  width: 50px;
+  color: black;
+}
